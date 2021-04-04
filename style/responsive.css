@@ -1,0 +1,13 @@
+
+/* On screens that are 415px wide or less*/
+@media screen and (max-width: 415px) {
+    .display-4 {
+        font-size: 1.2rem;
+    }
+    #logo {
+        width: 27px !important;
+    }
+    .hero-graphic-img {        
+        width: 85%!important;
+    }
+}
