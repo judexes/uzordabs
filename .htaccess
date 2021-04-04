@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*)$ $1.php [QSA,NC,L]
+ErrorDocument 404 http://localuzordabs.io/404
+ErrorDocument 500 http://localuzordabs.io/500
