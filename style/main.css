@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
        /* Height of navbar */
         bottom: 0;
         left: 100%;
-        width: 70%;
+        width: 100%;
         padding-right: 1rem;
         padding-left: 1rem;
         overflow-y: auto;
@@ -52,16 +52,20 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
    }
 }
-
-
 .color-1 {
-    color: #414042;
+    color: #7f7a85;
 }
 .color-2 {
     color: #49BDAC;
 }
 .color-3 {
     color: #90959A;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #48bcab;
+    border-color: #48bcab;
 }
 .text-box {
     position: absolute;
@@ -113,7 +117,7 @@ body::-webkit-scrollbar-thumb {
   width: 30px;
 }
 .splash {
-    padding: 8rem 0rem;
+    padding: 5rem 0rem;
 }
 @media (max-width: 414px) {
     .splash {
@@ -124,13 +128,22 @@ body::-webkit-scrollbar-thumb {
     }
 }
 .btn {
-    /* border-radius: 3rem; */
+    border-radius: 0rem;
     font-size: x-small;
     padding: .6rem 1rem;
 }
+.btn-primary:hover, 
+.contact-form-section .btn-primary:not(:disabled):not(.disabled).active, 
+.contact-form-section .btn-primary:not(:disabled):not(.disabled):active, 
+.contact-form-section .show>.btn-primary.dropdown-toggle {
+    background-color: #49BDAC;
+    border-color: #49BDAC;
+    color: #ffffff !important;
+}
 .btn-primary {
-    background-color: #2862f7;
-    border-color: #2862f7;
+    color: #90959A !important;
+    background-color: #ffffff;
+    border-color: #90959A;
 }
 .splash p {
     font-size: 18px;
@@ -152,17 +165,6 @@ body::-webkit-scrollbar-thumb {
     min-height: 600px;
 
 }
-/* On screens that are 415px wide or less*/
-@media screen and (max-width: 415px) {
-    .hero-section {
-        /* background-image: url(../img/hero-mobile.png);
-        background-color: #2862f759; */
-    }
-    .splash {
-        /* background-color: #d3d7e282;
-        min-height: inherit; */
-    }
-}
 .splash {
     /*background-color: #d3d7e282;*/
     background-repeat: repeat-x;
@@ -172,212 +174,35 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     min-height: inherit;
 }
-.about-us-section {
+.projects-section {
     padding-bottom: 3rem;
     padding-top: 3rem;
+}
+.footer-section {
+    background-color: #231F20;
 }
 .profile img {
     max-width: 60%;
 }
+.subtitle {
+    font-size: 13px;
+}
+
 /* On screens that are 770px wide or less*/
 @media screen and (max-width: 770px) {
     .profile img {
         max-width: 100%;
     }
 }
-/* On screens that are 415px wide or less*/
-@media screen and (max-width: 415px) {
-    .display-4 {
-        font-size: 1.6rem;
-    }
+.project-description {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 .display-4 {
     font-size: 2.7rem;
 }
-.services-section {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-}
-.portfolio-section {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-}
 .btn {
     min-width: max-content;
-}
-.experience-section {
-  /* The image used */
-    background-image: url(../img/experience.png);
-
-  /* Full height */
-    height: 100%;
-
-  /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100px;
-}
-.experience-shade {
-    background-image: url(../img/experience-shade.png);
-    background-color: #2862f759;
-    background-repeat: repeat-x;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    min-height: 100px;
-}
-.experience-section p {
-    margin-top: 0;
-    margin-bottom: 0.3rem;
-}
-.experience {
-    padding: 2rem 0rem;
-}
-.testimonial-section .parallax {
-    background-image: url(../img/testimonial.png);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-
-}
-.testimonial-shade {
-    /* background-image: url(../img/testimonial-shade.png); */
-    background-color: #0000004a;
-    background-repeat: repeat-x;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    min-height: 400px;
-}
-.testimonial-section-header p {
-    margin-bottom: 0rem;
-}
-.testimonial .profile {
-    padding: 5rem 2rem;
-}
-.testimonial .profile img{
-    max-width: 40%;
-}
-.counter {
-    padding: 20px 0;
-    border-radius: 5px;
-}
-.testimonial .card {
-    min-height: 250px;
-}
-.testimonial .card-text {
-    font-size: small;
-}
-
-.home-newsletter {
-    padding: 80px 0;
-    background: #2162ae;
-}
-.home-newsletter .single {
-    max-width: 650px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 2;
-}
-.home-newsletter .single h2 {
-    font-size: 22px;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-}
-.home-newsletter .single .form-control {
-    height: 50px;
-    background:#fff;
-    border-color: transparent;
-    border-radius: 30px 0 0 30px;
-}
-.home-newsletter .single .form-control:focus {
-    box-shadow: none;
-    border-color: #243c4f;
-}
-.home-newsletter .single .btn {
-    min-height: 50px;
-    border-radius: 0 30px 30px 0;
-    background: #243c4f;
-    color: #fff;
-}
-.newsletter-section .btn.focus, .newsletter-section .btn:focus {
-    box-shadow: 0 0 0 0.2rem rgba(61, 60, 60, 0.24);
-}
-#subscribeModal .modal-content{
-    overflow:hidden;
-}
-#subscribeModal .form-control {
-    height: 56px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    padding-left:30px;
-}
-#subscribeModal .btn {
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    padding-right:20px;
-    background: #14317c;
-    border-color: #14317c;
-}
-#subscribeModal .form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: #007b5e;
-    outline: 0;
-    box-shadow: none;
-}
-#subscribeModal .top-strip {
-    height: 155px;
-    background: #14317c;
-    transform: rotate(141deg);
-    margin-top: -94px;
-    margin-right: 190px;
-    margin-left: -130px;
-    border-bottom: 65px solid #14317c;
-    border-top: 10px solid #a7bdf7;
-}
-#subscribeModal .bottom-strip {
-    height: 155px;
-    background: #14317c;
-    transform: rotate(112deg);
-    margin-top: -110px;
-    margin-right: -215px;
-    margin-left: 300px;
-    border-bottom: 65px solid #a7bdf7;
-    border-top: 10px solid #a7bdf7;
-}
-
-/**************************/
-/****** modal-lg stips *********/
-/**************************/
-#subscribeModal .modal-lg .top-strip {
-    height: 155px;
-    background: #007b5e;
-    transform: rotate(141deg);
-    margin-top: -106px;
-    margin-right: 457px;
-    margin-left: -130px;
-    border-bottom: 65px solid #14317c;
-    border-top: 10px solid #a7bdf7;
-}
-#subscribeModal .modal-lg .bottom-strip {
-    height: 155px;
-    background: #007b5e;
-    transform: rotate(135deg);
-    margin-top: -115px;
-    margin-right: -339px;
-    margin-left: 421px;
-    border-bottom: 65px solid #a7bdf7;
-    border-top: 10px solid #a7bdf7;
 }
 
 .reload-page{
