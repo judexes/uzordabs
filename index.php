@@ -15,6 +15,8 @@
         <!-- Hero CSS -->
         <!-- Bootstrap core CSS -->
         <link href="style/vendors/bootstrap.min.css" rel="stylesheet">
+        <!-- Darkmode CSS -->
+        <link href="style/darkmode.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <link href="style/main.css" rel="stylesheet">
         <!-- Custom styles for this template -->
@@ -42,12 +44,23 @@
                             <a class="nav-link" href="#services">Resume</a>
                         </li>
                         <span class="align-bottom d-block d-sm-none fixed-bottom mb-5 mode text-center" id="">
-                            <img src="img/darkmode.svg" alt="image">
+                            <!-- <img src="img/darkmode.svg" alt="image"> -->
+                            
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                                <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                            </div>
+                            <script src="dark-mode-switch.min.js"></script>
                         </span>
                     </ul>
                 </div>
                 <span class=" mr-auto mr-lg-0 d-none d-sm-block mode " id="">
-                    <img src="img/darkmode.svg" alt="image">
+                    <!-- <img src="img/darkmode.svg" alt="image"> -->
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                    </div>
+                    <script src="dark-mode-switch.min.js"></script>
                 </span>
                 <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                     <img src="/img/hamburger.png" alt="hamburger" class="navbar-toggler-icon">
@@ -169,6 +182,8 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="javascript/vendors/bootstrap.bundle.js"></script>
+    <script src="javascript/dark-mode-switch.js"></script>
+    <script src="javascript/dark-mode-switch.min.js"></script>
     <script src="javascript/script.js"></script>
 </body>
 </html>
