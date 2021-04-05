@@ -27,6 +27,8 @@ body::-webkit-scrollbar-thumb {
     background-color: rgb(71 187 171);    /* color of the scroll thumb */
     margin-right:1px;     
 }
+
+
 @media (max-width: 991.98px) {
     .offcanvas-collapse {
         position: fixed;
