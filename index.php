@@ -48,9 +48,9 @@
                             
                             <div class="custom-control custom-switch">
                                 <input type="checkbox" class="custom-control-input" id="darkSwitch">
-                                <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                                <label class="custom-control-label" for="darkSwitch"></label>
                             </div>
-                            <script src="dark-mode-switch.min.js"></script>
+                            <script src="/javascript/dark-mode-switch.min.js"></script>
                         </span>
                     </ul>
                 </div>
@@ -58,9 +58,9 @@
                     <!-- <img src="img/darkmode.svg" alt="image"> -->
                     <div class="custom-control custom-switch">
                         <input type="checkbox" class="custom-control-input" id="darkSwitch">
-                        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                        <label class="custom-control-label" for="darkSwitch"></label>
                     </div>
-                    <script src="dark-mode-switch.min.js"></script>
+                    <script src="/javascript/dark-mode-switch.min.js"></script>
                 </span>
                 <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                     <img src="/img/hamburger.png" alt="hamburger" class="navbar-toggler-icon">

@@ -27,3 +27,5 @@ function scrollFunction() {
 $('#Reloadpage').click(function() {
     location.reload();
 }); 
+
+
