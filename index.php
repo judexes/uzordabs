@@ -61,6 +61,8 @@
                         <label class="custom-control-label" for="darkSwitch"></label>
                     </div>
                     <script src="/javascript/dark-mode-switch.min.js"></script>
+
+
                 </span>
                 <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                     <img src="/img/hamburger.png" alt="hamburger" class="navbar-toggler-icon">
