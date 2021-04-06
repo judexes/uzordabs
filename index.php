@@ -79,6 +79,14 @@
                 </div>
             </div>
         </div>
+        <div class="row align-items-center text-center ">
+            <div class="col">
+                <a href="#more">
+
+                    <img src="img/carat.svg" alt="caret">
+                </a>
+            </div>
+        </div>
     </section>
 
 
@@ -90,18 +98,13 @@
             <div class="row align-items-center text-center ">
                 <div class="col">
 
-                    <img src="img/carat.svg" alt="caret">
-                </div>
-            </div>
-            <div class="row align-items-center text-center ">
-                <div class="col">
-
                     <p>Just a few selected porjects</p>
                 </div>
             </div>
 
             <div class="container">
 
+                <div  id="more"></div>
                 <div class="row align-items-center  my-4 mx-sm-4">
                     <div class="col-sm-6 order-sm-12 mt-3 mb-2">
                         <img class="img-fluid" src="img/nillow.svg" class="img-fluid">
