@@ -30,7 +30,7 @@
     <section class="">
         <!-- ------------------------ MAIN NAV ----------------------- -->
         <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white">
-            <a class="navbar-brand mr-auto mr-lg-0 reload-page" href="#" id="Reloadpage" style="min-width: 40px;">
+            <a class="navbar-brand mr-auto mr-lg-0 reload-page" id="Reloadpage" style="min-width: 40px;">
                 <img src="img/logo.svg" alt="Logo Image" id="logo">
             </a>
             <div class="navbar-collapse offcanvas-collapse bg-white" id="navbarsExampleDefault">
@@ -83,7 +83,7 @@
             <div class="col">
                 <a href="#more">
 
-                    <img src="img/carat.svg" alt="caret">
+                    <img src="img/carat.svg" alt="caret" id="carat">
                 </a>
             </div>
         </div>
