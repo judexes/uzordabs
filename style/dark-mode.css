@@ -1,14 +1,14 @@
 [data-theme="dark"] {
-  background-color: #111 !important;
+  background-color: #212529 !important;
   color: #eee;
 }
 
 [data-theme="dark"] .bg-light {
-  background-color: #333 !important;
+  background-color: #212529 !important;
 }
 
 [data-theme="dark"] .bg-white {
-  background-color: #000 !important;
+  background-color: #212529 !important;
 }
 
 [data-theme="dark"] .bg-black {
@@ -21,4 +21,23 @@
 
 [data-theme="dark"] .footer-section {
   color: #000 !important;
+}
+
+[data-theme="dark"] .btn-primary {
+  color: #fff !important;
+  background-color: #212529;
+}
+
+[data-theme="dark"] .btn-primary:hover {
+  color: #000 !important;
+  background-color: #F6CD01 !important;
+  border-color: #F6CD01 !important;
+}
+
+[data-theme="dark"] .color-3 {
+  color: #C4C4C4 !important;
+}
+
+[data-theme="dark"] .text-black {
+  color: #ffffff !important;
 }

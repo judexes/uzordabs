@@ -29,16 +29,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media (max-width: 991.98px) {
+@media (max-width: 765.98px) {
     .offcanvas-collapse {
         position: fixed;
-        top: 69px;
-       /* Height of navbar */
-        bottom: 0;
+        top: 62px;
+        bottom: -23px;
         left: 100%;
         width: 100%;
         padding-right: 1rem;
         padding-left: 1rem;
+        padding-top: 9rem;
         overflow-y: auto;
         visibility: hidden;
         background-color: #343a40;
@@ -62,6 +62,31 @@ body::-webkit-scrollbar-thumb {
 }
 .color-3 {
     color: #90959A;
+}
+
+/* SWITCH */
+.custom-control-input:checked~.custom-control-label::before {
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+.custom-switch .custom-control-input:checked~.custom-control-label::after {
+    background-color: #000;
+}
+.custom-control-label::before {
+    background-color: #000;
+    border: #000000 solid 1px;
+}
+.custom-switch .custom-control-label::after {
+    background-color: #ffffff;
+}
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 50%);
+}
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem rgb(86 86 86 / 16%);
+}
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+    border-color: #757575;
 }
 
 .btn-primary:hover {
