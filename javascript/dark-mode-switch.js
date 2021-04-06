@@ -1,9 +1,3 @@
-
-var imgID = "logo";
-var darkImg = "./dark.png";
-var lightImg = "./light.png";
-
-
 var darkSwitch = document.getElementById("darkSwitch");
 window.addEventListener("load", function () {
   if (darkSwitch) {
@@ -45,23 +39,8 @@ function resetTheme() {
   if (darkSwitch.checked) {
     document.body.setAttribute("data-theme", "dark");
     localStorage.setItem("darkSwitch", "dark");
-    // document.getElementById(imgID).src = darkImg;
   } else {
     document.body.removeAttribute("data-theme");
     localStorage.removeItem("darkSwitch");
-    // document.getElementById(imgID).src = lightImg;
   }
 }
-// function resetTheme() {
-//   if (darkMode.checked) {
-//     document.body.setAttribute('data-theme', 'dark');
-//     localStorage.setItem('darkMode', 'dark');
-//     document.getElementById(imgID).src = darkImg;
-//     document.getElementById(darkLabel).innerHTML = darkLang;
-//   } else {
-//     document.body.removeAttribute('data-theme');
-//     localStorage.removeItem('darkMode');
-//     document.getElementById(imgID).src = lightImg;
-//     document.getElementById(darkLabel).innerHTML = lightLang;
-//   }
-// }

@@ -18,3 +18,7 @@
 [data-theme="dark"] .footer-section {
   background-color: #49BDAC !important;
 }
+
+[data-theme="dark"] .footer-section {
+  color: #000 !important;
+}
