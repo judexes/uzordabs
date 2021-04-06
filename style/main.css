@@ -178,27 +178,9 @@ body::-webkit-scrollbar-thumb {
 }
 /* HERO */
 .hero-section {
-  /* The image used */
-    /* background-image: url(../img/hero.png); */
-
-  /* Full height */
-    height: 100%;
-
-  /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px;
-
 }
 .splash {
-    /*background-color: #d3d7e282;*/
-    background-repeat: repeat-x;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
     min-height: inherit;
 }
 .projects-section {

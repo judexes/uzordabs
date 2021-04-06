@@ -90,13 +90,14 @@
     </section>
 
 
+    <div  id="more" class=""></div>
 
     <!-- Projects SECTION -->
     <section class="projects-section">
 
         <div class="container">
             <div class="row align-items-center text-center ">
-                <div class="col">
+                <div class="col mt-4">
 
                     <p>Just a few selected porjects</p>
                 </div>
@@ -104,7 +105,6 @@
 
             <div class="container">
 
-                <div  id="more"></div>
                 <div class="row align-items-center  my-4 mx-sm-4">
                     <div class="col-sm-6 order-sm-12 mt-3 mb-2">
                         <img class="img-fluid" src="img/nillow.svg" class="img-fluid">

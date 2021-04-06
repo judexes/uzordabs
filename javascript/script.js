@@ -18,7 +18,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("logo").style.width = "30px";
   } else {
-    document.getElementById("logo").style.width = "50px";
+    document.getElementById("logo").style.width = "35px";
   }
 }
 
