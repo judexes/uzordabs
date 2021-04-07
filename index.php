@@ -109,7 +109,7 @@
             <div class="container">
 
                 <div class="row align-items-center  my-4">
-                    <div class="col-sm-6 order-sm-12 mt-3 mb-2">
+                    <div class="col-sm-6 order-sm-12 mt-3 mb-2 text-right">
                         <img class="img-fluid" src="img/nillow.svg" class="img-fluid" id="nillow">
                     </div>
                     <div class="col-sm-6 order-sm-1">
@@ -138,7 +138,7 @@
                 </div>
 
                 <div class="row align-items-center  my-4 ">
-                    <div class="col-sm-6 order-sm-12 mt-3 mb-2">
+                    <div class="col-sm-6 order-sm-12 mt-3 mb-2 text-right">
                         <img class="img-fluid" src="img/cloudbooks.svg" class="img-fluid" id="cloudbooks">
                     </div>
                     <div class="col-sm-6 order-sm-1">
