@@ -1,13 +1,81 @@
-
 /* On screens that are 415px wide or less*/
 @media screen and (max-width: 415px) {
     .display-4 {
         font-size: 1.2rem;
     }
+
     #logo {
         width: 27px !important;
     }
-    .hero-graphic-img {        
-        width: 85%!important;
+
+    .hero-graphic-img {
+        width: 85% !important;
     }
+}
+
+/* @media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1030px;
+    }
+
+    .navbar-main {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+}
+
+@media (min-width: 990px) {
+
+    .container{
+        max-width: 828px;
+    }
+}
+
+@media (min-width: 990px) {
+
+    .hero-graphic-img {
+        max-width: 300px;
+    }
+} */
+
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        background-color: #ffffff;
+    }
+    .navbar-main {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        min-height: 69px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
