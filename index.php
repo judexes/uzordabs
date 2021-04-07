@@ -28,13 +28,15 @@
     <div id="top offcanvas-close"></div>
     <!-- MENU SECTION -->
     <section class="">
+        
+    <div class="">
         <!-- ------------------------ MAIN NAV ----------------------- -->
-        <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white container px-sm-4">
             <a class="navbar-brand mr-auto mr-lg-0 reload-page" id="Reloadpage" style="min-width: 40px;">
                 <img src="img/logo.svg" alt="Logo Image" id="logo">
             </a>
             <div class="navbar-collapse offcanvas-collapse bg-white" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto mx-auto text-center">
+                <ul class="navbar-nav mr-sm-5 mx-auto text-center">
                     <li class="nav-item">
                         <a class="nav-link  text-black">Work</a>
                     </li>
@@ -59,7 +61,8 @@
                 <!-- <span class="navbar-toggler-icon"></span> -->
             </button>
         </nav>
-        <!----------------------- SECONDARY NAV ------------------------->
+
+    </div>
     </section>
 
 
@@ -68,12 +71,12 @@
         <div class="splash">
             <div class="container">
                 <div class="row align-items-center mx-2">
-                    <div class="col-sm-7 align-middle px-0 px-sm-2 text-left">
-                        <h1 class="display-4 font-weight-bolder color-1">Hi I'm Uzoh Daberechi, a</h1>
-                        <h1 class="display-4 font-weight-bolder color-2">Visual & Product Designer.</h1>
+                    <div class="align-middle col-sm-7 px-2 px-sm-2 text-sm-left">
+                        <h1 class="display-4 color-1">Hi I'm Uzoh Daberechi, a</h1>
+                        <h1 class="display-4 color-2">Visual & Product Designer.</h1>
                         <p class="">I love to design experiences and usable digital products loved by people.</p>
                     </div>
-                    <div class="col-sm-5 my-4">
+                    <div class="col-sm-5 my-4 text-sm-right">
                         <img src="img/profile.svg" alt="photo" class="img-fluid hero-graphic-img">
                     </div>
                 </div>
@@ -83,7 +86,7 @@
             <div class="col">
                 <a href="#more">
 
-                    <img src="img/carat.svg" alt="caret" id="carat">
+                    <img src="img/carat-white.svg" alt="caret" id="carat">
                 </a>
             </div>
         </div>
@@ -105,9 +108,9 @@
 
             <div class="container">
 
-                <div class="row align-items-center  my-4 mx-sm-4">
+                <div class="row align-items-center  my-4">
                     <div class="col-sm-6 order-sm-12 mt-3 mb-2">
-                        <img class="img-fluid" src="img/nillow.svg" class="img-fluid">
+                        <img class="img-fluid" src="img/nillow.svg" class="img-fluid" id="nillow">
                     </div>
                     <div class="col-sm-6 order-sm-1">
                         <h6 class="subtitle color-3">MOBILE APP DESIGN</h6>
@@ -117,11 +120,11 @@
                     </div>
                 </div>
 
-                <div class="row  align-items-center my-4 mx-sm-4">
+                <div class="row  align-items-center my-4 ">
                     <div class="col-sm-6 mt-3 mb-2">
-                        <div class=" mb-3 mr-sm-0 ml-sm-0 profile">
+                        <div class=" mb-3 mr-sm-0 ml-sm-0">
 
-                            <img class="img-fluid" src="img/eyimba.svg" class="img-fluid">
+                            <img class="img-fluid" src="img/eyimba.svg" class="img-fluid" id="eyimba">
                         </div>
                     </div>
                     <div class="col-sm-6 ">
@@ -134,9 +137,9 @@
                     </div>
                 </div>
 
-                <div class="row align-items-center  my-4 mx-sm-4">
+                <div class="row align-items-center  my-4 ">
                     <div class="col-sm-6 order-sm-12 mt-3 mb-2">
-                        <img class="img-fluid" src="img/cloudbooks.svg" class="img-fluid">
+                        <img class="img-fluid" src="img/cloudbooks.svg" class="img-fluid" id="cloudbooks">
                     </div>
                     <div class="col-sm-6 order-sm-1">
                         <h6 class="subtitle color-3">UI/UX DESIGN</h6>
@@ -154,7 +157,7 @@
         <div class="container">
             <div class="row align-items-center text-center">
                 <div class="col-12 my-4">
-                    <p class="mb-0 text-white">Uzoh Dhabs 2020</p>
+                    <p class="mb-0 text-white">Designed by Dhabs  |  Developed by Jude</p>
                 </div>
             </div>
         </div>

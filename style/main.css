@@ -89,6 +89,9 @@ body::-webkit-scrollbar-thumb {
     border-color: #757575;
 }
 
+/* SWITCH */
+
+
 .btn-primary:hover {
     color: #fff;
     background-color: #48bcab;
@@ -104,21 +107,11 @@ body::-webkit-scrollbar-thumb {
     transform: translateY(-50%);
 }
 .navbar-main {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    /* padding-left: 14rem;
+    padding-right: 14rem; */
 }
 .navbar-main li {
     font-size: 14px;
-}
-@media (max-width: 991.98px) {
-    .offcanvas-collapse {
-        background-color: #ffffff;
-    }
-    .navbar-main {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        min-height: 69px;
-    }
 }
 .navbar-main .mode img {
     max-height: 20px;
@@ -126,13 +119,6 @@ body::-webkit-scrollbar-thumb {
 .navbar-main .fixed-bottom img {
     min-width: 7%;
     margin: 0rem 1.2rem;
-}
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgb(0 0 0 / 48%);
-}
-.navbar-dark .navbar-nav .nav-link:hover {
-    border-top: 1px solid;
-    transition: width 2s;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(0 0 0 / 75%);
@@ -142,6 +128,9 @@ body::-webkit-scrollbar-thumb {
 #logo {
   transition: 0.2s;
   width: 30px;
+}
+.hero-graphic-img {
+    /* max-width: 300px; */
 }
 .splash {
     padding: 5rem 0rem;
@@ -195,6 +184,7 @@ body::-webkit-scrollbar-thumb {
 }
 .subtitle {
     font-size: 13px;
+    margin: 10px 0px;
 }
 
 /* On screens that are 770px wide or less*/
@@ -208,7 +198,8 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 3rem;
 }
 .display-4 {
-    font-size: 2.7rem;
+    font-weight: 700;
+    font-size: 36px;
 }
 .btn {
     min-width: max-content;

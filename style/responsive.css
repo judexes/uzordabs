@@ -9,39 +9,9 @@
     }
 
     .hero-graphic-img {
-        width: 85% !important;
+        /* width: 85% !important; */
     }
 }
-
-/* @media (min-width: 1200px) {
-
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        max-width: 1030px;
-    }
-
-    .navbar-main {
-        padding-left: 12rem;
-        padding-right: 12rem;
-    }
-}
-
-@media (min-width: 990px) {
-
-    .container{
-        max-width: 828px;
-    }
-}
-
-@media (min-width: 990px) {
-
-    .hero-graphic-img {
-        max-width: 300px;
-    }
-} */
 
 
 @media (max-width: 991.98px) {
@@ -55,6 +25,12 @@
     }
 }
 
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
