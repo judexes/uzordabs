@@ -13,6 +13,8 @@
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
     <meta name="keywords" content="Uzoh Daberechi, Visual & Product Designer, Designer">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="style/vendors/animate.css/4.0.0/animate.min.css">
     <!-- Bootstrap core CSS -->
     <link href="style/vendors/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -28,41 +30,49 @@
     <div id="top offcanvas-close"></div>
     <!-- MENU SECTION -->
     <section class="">
-        
-    <div class="">
-        <!-- ------------------------ MAIN NAV ----------------------- -->
-        <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white container px-sm-4">
-            <a class="navbar-brand mr-auto mr-lg-0 reload-page" id="Reloadpage" style="min-width: 40px;">
-                <img src="img/logo.svg" alt="Logo Image" id="logo">
-            </a>
-            <div class="navbar-collapse offcanvas-collapse bg-white" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-sm-5 mx-auto text-center">
-                    <li class="nav-item">
-                        <a class="nav-link  text-black">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-black">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-black">Resume</a>
-                    </li>
-                </ul>
-            </div>
-            <span class=" mr-auto mr-lg-0 d-none d-sm-block mode " id="">
 
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="darkSwitch" />
-                    <label class="custom-control-label" for="darkSwitch"></label>
+        <div class="">
+            <!-- ------------------------ MAIN NAV ----------------------- -->
+            <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white container px-sm-4">
+                <a class="navbar-brand mr-auto mr-lg-0 reload-page" id="Reloadpage" style="min-width: 40px;">
+                    <img src="img/logo.svg" alt="Logo Image" id="logo">
+                </a>
+                <div class="navbar-collapse offcanvas-collapse bg-white" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-sm-5 mx-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link  text-black">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-black">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-black">Resume</a>
+                        </li>
+
+                        <span class="align-bottom d-block d-sm-none fixed-bottom mb-5 socials text-center" id="">
+
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+                                <label class="custom-control-label" for="darkSwitch"></label>
+                            </div>
+                        </span>
+                    </ul>
                 </div>
-            </span>
+                <span class=" mr-auto mr-lg-0 d-none d-sm-block mode " id="">
 
-            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                <img src="img/hamburger.png" alt="hamburger" class="navbar-toggler-icon">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-            </button>
-        </nav>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+                        <label class="custom-control-label" for="darkSwitch"></label>
+                    </div>
+                </span>
 
-    </div>
+                <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                    <img src="img/hamburger.png" alt="hamburger" class="navbar-toggler-icon">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                </button>
+            </nav>
+
+        </div>
     </section>
 
 
@@ -86,14 +96,14 @@
             <div class="col">
                 <a href="#more">
 
-                    <img src="img/carat-white.svg" alt="caret" id="carat">
+                    <img src="img/carat-white.svg" alt="caret" id="carat" class="animate__animated animate__bounce animate__slow 4s animate__infinite infinite">
                 </a>
             </div>
         </div>
     </section>
 
 
-    <div  id="more" class=""></div>
+    <div id="more" class=""></div>
 
     <!-- Projects SECTION -->
     <section class="projects-section">
@@ -157,7 +167,7 @@
         <div class="container">
             <div class="row align-items-center text-center">
                 <div class="col-12 my-4">
-                    <p class="mb-0 text-white">Designed by Dhabs  |  Developed by Jude</p>
+                    <p class="mb-0 text-white">Designed by Dhabs | Developed by Jude</p>
                 </div>
             </div>
         </div>
