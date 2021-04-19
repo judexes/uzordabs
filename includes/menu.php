@@ -11,7 +11,7 @@
             <div class="navbar-collapse offcanvas-collapse bg-white" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-sm-5 mx-auto text-center">
                     <li class="nav-item">
-                        <a class="nav-link  text-black">Work</a>
+                        <a class="nav-link  text-black" >Work</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link  text-black">About me</a>
