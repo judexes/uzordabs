@@ -215,3 +215,12 @@ body::-webkit-scrollbar-thumb {
     font-size: 13px;
     line-height: 21px;
 }
+
+.about .splash {
+    padding: 5rem 0rem 2rem 0rem;
+}
+
+.table td, .table th {
+    border-top: 0px;
+    font-size: 13px;
+}
