@@ -211,3 +211,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+.about .splash p {
+    font-size: 13px;
+    line-height: 21px;
+}
