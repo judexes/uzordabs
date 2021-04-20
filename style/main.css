@@ -221,6 +221,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .table td, .table th {
-    border-top: 0px;
+    /* border-top: 0px; */
     font-size: 13px;
 }
