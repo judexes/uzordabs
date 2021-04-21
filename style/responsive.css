@@ -3,6 +3,9 @@
     .display-4 {
         font-size: 1.2rem;
     }
+    .about .display-4 {
+        font-size: 1.3rem;
+    }
 
     #logo {
         width: 27px !important;
