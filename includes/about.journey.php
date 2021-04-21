@@ -4,10 +4,10 @@
         <div class="row align-items-center text-center ">
             <div class="container">
                 <h6 class="font-weight-bolder">My Journey</h6>
-                <div class="row m-0">
+                <div class="row m-0 mr-sm-2">
                     <div class="col mt-0">
 
-                        <table class="table text-right">
+                        <table class="table text-right text-black text-black">
                             <tbody>
                                 <tr>
                                     <th class="border-0 pb-0  text-left">Product Designer</th>
@@ -53,6 +53,9 @@
                         </table>
 
                     </div>
+                </div>
+                <div class="download-button m-4">
+                    <button type="button" class="btn btn-outline-secondary">Download Resume</button>
                 </div>
             </div>
         </div>
