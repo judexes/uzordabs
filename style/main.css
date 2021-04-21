@@ -63,6 +63,9 @@ body::-webkit-scrollbar-thumb {
 .color-3 {
     color: #90959A;
 }
+.text-muted {
+    color: #90959a!important;
+}
 
 /* SWITCH */
 .custom-control-input:checked~.custom-control-label::before {
@@ -222,5 +225,11 @@ body::-webkit-scrollbar-thumb {
 
 .table td, .table th {
     /* border-top: 0px; */
-    font-size: 13px;
+    font-size: 11px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-top: 1px solid #f1f1f1;
+}
+.social-connects img {
+    margin: .0rem .7rem .0rem .7rem;
 }
