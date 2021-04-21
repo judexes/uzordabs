@@ -27,7 +27,7 @@
 
 </head>
 
-<body class="bg-white mt-2">
+<body class="bg-white mt-2 about">
 
     <!-- MENU SECTION -->
     <?php    include_once 'includes/menu.php'    ?>
