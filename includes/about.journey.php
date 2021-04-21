@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="download-button m-4">
-                    <button type="button" class="btn btn-outline-secondary">Download Resume</button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="window.open('/Principles-by-Ray-Dalio.pdf')">Download Resume</button>
                 </div>
             </div>
         </div>
