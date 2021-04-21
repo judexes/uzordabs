@@ -14,7 +14,7 @@
             </div>
             <div class="row align-items-center mx-2 mt-sm-4">
                 <div class="align-middle col px-2 px-sm-2 text-sm-left">
-                    <div class="social-connects">
+                    <div class="social-connects mt-2">
                         <h6 class="font-weight-bolder">Let's connect</h6>
                         <img src="img/gmail.svg" alt="gmail" class="img-responsive ml-sm-0">
                         <img src="img/twitter.svg" alt="twitter" class="img-responsive">
