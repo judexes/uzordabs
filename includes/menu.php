@@ -4,20 +4,20 @@
 
     <div class="">
         <!-- ------------------------ MAIN NAV ----------------------- -->
-        <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white container px-sm-4">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white container">
             <a class="navbar-brand mr-auto mr-lg-0 reload-page" id="Reloadpage" style="min-width: 40px;">
                 <img src="img/logo.svg" alt="Logo Image" id="logo">
             </a>
             <div class="navbar-collapse offcanvas-collapse bg-white" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-sm-5 mx-auto text-center">
                     <li class="nav-item">
-                        <a class="nav-link  text-black" >Work</a>
+                        <a class="nav-link text-black" href="/">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-black">About me</a>
+                        <a class="nav-link text-black" href="about">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-black">Resume</a>
+                        <a class="nav-link text-black" href="/Principles-by-Ray-Dalio.pdf" download="Principles-by-Ray-Dalio.pdf" target="_blank">Resume</a>
                     </li>
 
                     <span class="align-bottom d-block d-sm-none fixed-bottom mb-5 socials text-center" id="">
