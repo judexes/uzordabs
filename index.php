@@ -24,6 +24,8 @@
     <link href="style/responsive.css" rel="stylesheet">
     <!-- Darkmode CSS -->
     <link rel="stylesheet" href="style/dark-mode.css">
+    <!-- Mobile menu -->
+    <link rel="stylesheet" href="style/mobile-menu.css">
 
 </head>
 

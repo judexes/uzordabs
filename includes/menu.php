@@ -4,7 +4,7 @@
 
     <div class="">
         <!-- ------------------------ MAIN NAV ----------------------- -->
-        <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white container">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white container d-none d-sm-block">
             <a class="navbar-brand mr-auto mr-lg-0 reload-page" id="Reloadpage" style="min-width: 40px;">
                 <img src="img/logo.svg" alt="Logo Image" id="logo">
             </a>
@@ -43,5 +43,30 @@
             </button>
         </nav>
 
+        <div class="d-block d-sm-none">
+		
+
+            <div class="screen">
+                <div class="navbar"></div>
+            
+                <div class="circle"></div>
+                <div class="menu">
+                    <ul>
+                        <li><a class="nav-link text-black" href="/">Work</a>></li>
+                        <li><a class="nav-link text-black" href="about">About me</a></li>
+                        <li><a class="nav-link text-black" href="/Principles-by-Ray-Dalio.pdf" download="Principles-by-Ray-Dalio.pdf" target="_blank">Resume</a></li>
+                        <!-- <li><a href="">Settings</a></li>
+                        <li><a href="">Contact</a></li> -->
+                    </ul>
+                </div>			            
+                <div class="burger">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                    <div class="z"></div>
+                </div>    
+
+            </div>	
+        </div>
+        
     </div>
 </section>
