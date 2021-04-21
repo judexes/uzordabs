@@ -1,9 +1,9 @@
-<section class="projects-section">
+<section class="journey-section">
 
     <div class="container">
         <div class="row align-items-center text-center ">
             <div class="container">
-                <h6 class="font-weight-bolder">My Journey</h6>
+                <h6 class="font-weight-bolder mb-3">My Journey</h6>
                 <div class="row m-0 mr-sm-2">
                     <div class="col mt-0">
 
