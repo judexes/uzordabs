@@ -46,26 +46,15 @@
         <div class="d-block d-sm-none">
 		
 
-            <div class="screen">
-                <div class="navbar"></div>
-            
-                <div class="circle"></div>
-                <div class="menu">
-                    <ul>
-                        <li><a class="nav-link text-black" href="/">Work</a>></li>
-                        <li><a class="nav-link text-black" href="about">About me</a></li>
-                        <li><a class="nav-link text-black" href="/Principles-by-Ray-Dalio.pdf" download="Principles-by-Ray-Dalio.pdf" target="_blank">Resume</a></li>
-                        <!-- <li><a href="">Settings</a></li>
-                        <li><a href="">Contact</a></li> -->
-                    </ul>
-                </div>			            
-                <div class="burger">
-                    <div class="x"></div>
-                    <div class="y"></div>
-                    <div class="z"></div>
-                </div>    
+            <div class="menu-bg"></div>
+            <div class="menu-burger p-1">☰</div>
+            <div class="menu-items">
+                <div><a href="">Work</a></div>
+                <div><a href="">About me</a></div>
+                <div><a href="">Resume</a></div>
+                <div><a href="">Darkmode</a></div>
+            </div>
 
-            </div>	
         </div>
         
     </div>
