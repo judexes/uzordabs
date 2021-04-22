@@ -25,7 +25,7 @@
     <!-- Darkmode CSS -->
     <link rel="stylesheet" href="style/dark-mode.css">
     <!-- Mobile menu -->
-    <link rel="stylesheet" href="style/mobile-menu.css">
+    <link rel="stylesheet" href="assets/css/mobile-menu.min.css">
 
 </head>
 
