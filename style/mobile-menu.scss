@@ -26,7 +26,7 @@ html {
 
 .menu-bg {
     @extend .menu;
-    background: #663399;
+    background: #F6CD01;
     pointer-events: none;
     transition: .6s;
     right: 50px;
@@ -85,8 +85,12 @@ html {
 
         div {
             opacity: 1;
-            margin-top: 75px;
-        }
+			margin-top: 40px;
+		}
+		
+		&a {
+			color: #fff;
+		}
     }
 }
 
@@ -100,4 +104,8 @@ html {
         font-size: 2em;
         margin-bottom: 1em;
     }
+}
+
+.menu-items a {
+	color: #fff;
 }
