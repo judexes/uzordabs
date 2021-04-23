@@ -48,7 +48,11 @@
 		
 
             <div class="menu-bg"></div>
+            <div class="menu-logo" >
+                <img src="/img/logo.svg" alt="logo" class="img-fluid ">
+            </div>
             <div class="menu-burger p-1">☰</div>
+            <!-- <div class="menu-burger p-1">☰</div> -->
             <div class="menu-items">
                 <div><a href="/">Work</a></div>
                 <div><a href="about">About me</a></div>
