@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 ">
-                    <div class="project-description ml-2 mr-2 text-left">
+                    <div class="ml-2 mr-2 text-left">
                         <h6 class="subtitle color-3">UI/UX DESIGN</h6>
                         <h2 class="title font-weight-bold">Enyimba F.C App</h2>
                         <p class="title-description">A café application that creates a unique reservation experience on the customer's mobile phone.</p>

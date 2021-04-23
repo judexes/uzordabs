@@ -34,10 +34,3 @@ $(".menu-burger, .menu-items").on("click", function () {
     : $(".menu-burger").text("☰");
 });
 
-
-// MOBILE MENU FIXED POSITION
-// if ($('#mob-menu').is(':visible')) {
-//   $('body').addClass("fixed-position");
-// } else {
-//   $('body').removeClass("fixed-position");
-// }
