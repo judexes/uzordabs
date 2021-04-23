@@ -4,7 +4,7 @@
 <head>
 
     <!-- Meta Tags -->
-    <title>Hi, I'm Uzoh Daberechi</title>
+    <title>Hi, I'm Uzoh Daberechi | About Me</title>
     <meta name="title" content="A Visual & Product Designer.">
     <meta name="description" content="A Visual & Product Designer.">
     <meta name="author" content="Uzoh Daberechi">
@@ -24,6 +24,8 @@
     <link href="style/responsive.css" rel="stylesheet">
     <!-- Darkmode CSS -->
     <link rel="stylesheet" href="style/dark-mode.css">
+    <!-- Mobile menu -->
+    <link rel="stylesheet" href="assets/css/mobile-menu.min.css">
 
 </head>
 
@@ -42,10 +44,9 @@
     <?php    include_once 'includes/footer.php'    ?>
 
     <!-- JS imports -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="javascript/vendors/jquery-3.5.1.slim.min.js"></script>
     <script src="javascript/vendors/bootstrap.bundle.js"></script>
     <script src="javascript/dark-mode-switch.min.js"></script>
     <script src="javascript/script.js"></script>
-</body>
 
 </html>

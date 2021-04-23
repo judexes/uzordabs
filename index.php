@@ -4,7 +4,7 @@
 <head>
 
     <!-- Meta Tags -->
-    <title>Hi, I'm Uzoh Daberechi</title>
+    <title>Hi, I'm Uzoh Daberechi | Portfolio</title>
     <meta name="title" content="A Visual & Product Designer.">
     <meta name="description" content="A Visual & Product Designer.">
     <meta name="author" content="Uzoh Daberechi">
