@@ -1,9 +1,3 @@
-body {
-    margin: 0;
-    -webkit-perspective: 1000;
-    background: url(https://f.cl.ly/items/3Q031Q1m1s1d3C0I023k/geometry2.png);
-    font-family: Avenir Next, sans-serif;
-}
 
 body,
 html {
@@ -109,3 +103,7 @@ html {
 .menu-items a {
 	color: #fff;
 }
+
+.fixed-position {
+    // position: fixed;
+ }

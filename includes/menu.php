@@ -3,7 +3,7 @@
 <section class="">
 
     <div class="">
-        <!-- ------------------------ MAIN NAV ----------------------- -->
+        <!-- MAIN NAV   -->
         <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-main bg-white container d-none d-sm-block">
             <a class="navbar-brand mr-auto mr-lg-0 reload-page" id="Reloadpage" style="min-width: 40px;">
                 <img src="img/logo.svg" alt="Logo Image" id="logo">
@@ -43,7 +43,8 @@
             </button>
         </nav>
 
-        <div class="d-block d-sm-none">
+        <!-- MOBILE NAV -->
+        <div class="d-block d-sm-none " id="mob-menu">
 		
 
             <div class="menu-bg"></div>
