@@ -13,13 +13,14 @@ html {
     font-size: 30px;
     text-align: center;
     border-radius: 100%;
-    right: 14px;
+    right: 29px;
     top: 11px;
     z-index: 2;
 }
 
 .menu-logo {
-    position: fixed;
+	// change position to fixed if you want logo to be fixed on top
+	position: relative;
     pointer-events: none;
     width: 36px;
     -webkit-transition: .6s;
@@ -36,7 +37,7 @@ html {
     background: #F6CD01;
     pointer-events: none;
     transition: .6s;
-    right: 39px;
+    right: 52px;
     top: 36px;
     transform: translate3d(50%, -50%, 0);
     transform-origin: center center;
@@ -120,4 +121,8 @@ html {
 .menu-items a {
 	color: #fff;
     font-weight: 400;
+}
+
+.mobile-menu {
+    // margin-top: 62px;
 }
