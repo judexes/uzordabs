@@ -35,9 +35,19 @@
                         <label class="custom-control-label" for="darkSwitch"></label>
                     </div>
                 </span>
-                <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                    <img src="img/hamburger.png" alt="hamburger" class="navbar-toggler-icon">
-                    <!-- <span class="navbar-toggler-icon"></span> -->
+                <button class="navbar-toggler p-0 border-0" type="button" >
+                    <div class="menu-bg"></div>
+                    <!-- <div class="menu-logo">
+                        <img src="img/logo.svg" alt="logo" class="img-fluid ">
+                    </div> -->
+                    <div class="menu-burger p-1">☰</div>
+                    <!-- <div class="menu-burger p-1">☰</div> -->
+                    <div class="menu-items">
+                        <div><a href="/">Work</a></div>
+                        <div><a href="about">About me</a></div>
+                        <div><a href="/Principles-by-Ray-Dalio.pdf">Resume</a></div>
+                        <div><a href="">Darkmode</a></div>
+                    </div>
                 </button>
             </nav>
 
