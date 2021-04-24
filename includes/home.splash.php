@@ -15,9 +15,8 @@
     </div>
     <div class="row align-items-center text-center ">
         <div class="col">
-            <a href="#more">
-
-                <img src="img/carat-white.svg" alt="caret" id="carat" class="animate__animated animate__bounce animate__slow 2s animate__infinite infinite">
+            <a href="#more" class="bounce">
+                <img src="img/carat-white.svg" alt="caret" id="carat" class="">
             </a>
         </div>
     </div>
