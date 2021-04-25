@@ -3,6 +3,7 @@
     .display-4 {
         font-size: 1.2rem;
     }
+
     .about .display-4 {
         font-size: 1.3rem;
     }
@@ -14,6 +15,7 @@
     .hero-graphic-img {
         width: 90% !important;
     }
+
     .splash p {
         font-size: 15px;
     }
@@ -24,6 +26,7 @@
     .offcanvas-collapse {
         background-color: #ffffff;
     }
+
     .navbar-main {
         padding-left: 1.8rem;
         padding-right: 1.8rem;
@@ -37,10 +40,11 @@
         padding-left: 1rem;
     }
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .splash {
-        padding: 6rem 0rem 3rem 0rem;
+        padding: 6.5rem 0rem 3rem 0rem;
     }
 
 }
@@ -48,19 +52,29 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    /* SCROLL BAR */
+    body::-webkit-scrollbar {
+        width: 6px;
+        /* width of the entire scrollbar */
+    }
+
+    body::-webkit-scrollbar-track {
+        background: #01707100;
+        /* color of the tracking area */
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: rgb(71 187 171);
+        /* color of the scroll thumb */
+        margin-right: 1px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
+@media only screen and (min-width: 1200px) {}

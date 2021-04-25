@@ -63,7 +63,8 @@
     <?php include_once 'includes/footer.php'    ?>
 
     <!-- JS imports -->
-    <script src="javascript/vendors/jquery-3.5.1.slim.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script> -->
+    <script src="javascript/vendors/jquery-3.5.1.min.js"></script>
     <script src="javascript/vendors/bootstrap.bundle.js"></script>
     <script src="javascript/dark-mode-switch.min.js"></script>
     <script src="javascript/script.js"></script>

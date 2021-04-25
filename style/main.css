@@ -2,8 +2,7 @@
 
 html {
     scroll-behavior: smooth;
-
-}
+  }  
 
 body {
     /* margin-top: 62px; */
@@ -14,22 +13,7 @@ body {
     animation: fadeIn 1s ease 0s 1 normal;
 }
 
-/* SCROLL BAR */
-body::-webkit-scrollbar {
-    width: 6px;
-    /* width of the entire scrollbar */
-}
 
-body::-webkit-scrollbar-track {
-    background: #01707100;
-    /* color of the tracking area */
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: rgb(71 187 171);
-    /* color of the scroll thumb */
-    margin-right: 1px;
-}
 
 @media (max-width: 765.98px) {
     .offcanvas-collapse {
@@ -72,6 +56,12 @@ body::-webkit-scrollbar-thumb {
 
 .text-muted {
     color: #90959a !important;
+}
+
+a:active,
+a:focus {
+    outline: 0;
+    -moz-outline-style: none;
 }
 
 .btn-outline-secondary {
@@ -254,6 +244,40 @@ body::-webkit-scrollbar-thumb {
 
 .splash {
     min-height: inherit;
+}
+
+.bounce {
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 0px;
+        top: 20px;
+    }
+
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+
+    75% {
+        left: 0px;
+        top: 20px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
 }
 
 .projects-section {
