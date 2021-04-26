@@ -36,7 +36,7 @@
                         <label class="custom-control-label" for="darkSwitch"></label>
                     </div>
                 </span>
-                <button class="navbar-toggler p-0 border-0" type="button">
+                <!-- <button class="navbar-toggler p-0 border-0" type="button">
                     <div class="menu-bg"></div>
                     <div class="menu-burger p-1">☰</div>
                     <div class="menu-items">
@@ -45,7 +45,7 @@
                         <div><a class="nav-link text-black" href="/Principles-by-Ray-Dalio.pdf" download="Principles-by-Ray-Dalio.pdf" target="_blank">Resume</a></div>
                         <div><a href="">Darkmode</a></div>
                     </div>
-                </button>
+                </button> -->
             </nav>
 
         </div>
